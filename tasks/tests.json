@@ -7,52 +7,73 @@
   ],
   "input_method": "environment",
   "parameters": {
-    "char032_text": { "type": "Enum['a z']" }
-    "char033_text": { "type": "Enum['a!z']" }
+    "char032_0_text": { "type": "Enum['a z']" }
+    "char032_1_text": { "type": "Enum['a\ z']" }
+    "char032_2_text": { "type": "Enum['a\\ z']" }
+    "char032_3_text": { "type": "Enum['a\\\ z']" }
+    "char033_0_text": { "type": "Enum['a!z']" }
+    "char033_1_text": { "type": "Enum['a\!z']" }
+    "char033_2_text": { "type": "Enum['a\\!z']" }
+    "char033_3_text": { "type": "Enum['a\\\!z']" }
     "char034_break": { "type": "Enum['a\"z']" }
-    "char035_text": { "type": "Enum['a#z']" }
-    "char036_text": { "type": "Enum['a$z']" }
+    "char035_0_text": { "type": "Enum['a#z']" }
+    "char035_1_text": { "type": "Enum['a\#z']" }
+    "char035_2_text": { "type": "Enum['a\\#z']" }
+    "char035_3_text": { "type": "Enum['a\\\#z']" }
+    "char036_0_text": { "type": "Enum['a$z']" }
+    "char036_1_text": { "type": "Enum['a$z']" }
+    "char036_2_text": { "type": "Enum['a$z']" }
+    "char036_3_text": { "type": "Enum['a$z']" }
     "char037_text": { "type": "Enum['a%z']" }
     "char038_text": { "type": "Enum['a&z']" }
-    "char0392_break": { "type": "Enum[\"a'z\"]" }
-    "char0400_text": { "type": "Enum['a(z']" }
-    "char0401_text": { "type": "Enum['a\(z']" }
-    "char0402_text": { "type": "Enum['a\\(z']" }
-    "char0403_text": { "type": "Enum['a\\\(z']" }
-    "char041_text": { "type": "Enum['a)z']" }
-    "char042_text": { "type": "Enum['a*z']" }
-    "char0430_text": { "type": "Enum['a+z']" }
-    "char0431_text": { "type": "Enum['a\+z']" }
-    "char0432_text": { "type": "Enum['a\\+z']" }
-    "char0433_text": { "type": "Enum['a\\\+z']" }
-    "char044_text": { "type": "Enum['a,za']" }
+    "char039_break": { "type": "Enum[\"a'z\"]" }
+    "char040_0_text": { "type": "Enum['a(z']" }
+    "char040_1_text": { "type": "Enum['a\(z']" }
+    "char040_2_text": { "type": "Enum['a\\(z']" }
+    "char040_3_text": { "type": "Enum['a\\\(z']" }
+    "char041_0_text": { "type": "Enum['a)z']" }
+    "char041_1_text": { "type": "Enum['a\)z']" }
+    "char041_2_text": { "type": "Enum['a\\)z']" }
+    "char041_3_text": { "type": "Enum['a\\\)z']" }
+    "char042_0_text": { "type": "Enum['a*z']" }
+    "char042_1_text": { "type": "Enum['a\*z']" }
+    "char042_2_text": { "type": "Enum['a\\*z']" }
+    "char042_3_text": { "type": "Enum['a\\\*z']" }
+    "char043_0_text": { "type": "Enum['a+z']" }
+    "char043_1_text": { "type": "Enum['a\+z']" }
+    "char043_2_text": { "type": "Enum['a\\+z']" }
+    "char043_3_text": { "type": "Enum['a\\\+z']" }
+    "char044_0_text": { "type": "Enum['a,z']" }
+    "char044_1_text": { "type": "Enum['a\,z']" }
+    "char044_2_text": { "type": "Enum['a\\,z']" }
+    "char044_3_text": { "type": "Enum['a\\\,z']" }
     "char045_dropdown": { "type": "Enum['a-z']" }
     "char046_dropdown": { "type": "Enum['a.z']" }
     "char047_dropdown": { "type": "Enum['a/z']" }
-    "char0910_trim": { "type": "Enum['a[z']" }
-    "char0911_trim": { "type": "Enum['a\[z']" }
+    "char091_0_trim": { "type": "Enum['a[z']" }
+    "char091_1_trim": { "type": "Enum['a\[z']" }
     "char092_dropdown": { "type": "Enum['a\\z']" }
-    "char0930_trim": { "type": "Enum['a]z']" }
-    "char0931_trim": { "type": "Enum['a\]z']" }
+    "char093_0_trim": { "type": "Enum['a]z']" }
+    "char093_1_trim": { "type": "Enum['a\]z']" }
     "char095_dropdown": { "type": "Enum['a_z']" }
-    "char0961_text": { "type": "Enum['a\`z']" }
-    "char0962_text": { "type": "Enum['a\\`z']" }
-    "char0963_text": { "type": "Enum['a\\\`z']" }
-    "char1230_text": { "type": "Enum['a{z']" }
-    "char1231_text": { "type": "Enum['a\{z']" }
-    "char1232_text": { "type": "Enum['a\\{z']" }
-    "char1233_text": { "type": "Enum['a\\\{z']" }
-    "char1240_text": { "type": "Enum['a|z']" }
-    "char1241_text": { "type": "Enum['a\|z']" }
-    "char1242_text": { "type": "Enum['a\\|z']" }
-    "char1243_text": { "type": "Enum['a\\\|z']" }
-    "char1250_text": { "type": "Enum['a}z']" }
-    "char1251_text": { "type": "Enum['a\}z']" }
-    "char1252_text": { "type": "Enum['a\\}z']" }
-    "char1253_text": { "type": "Enum['a\\\}z']" }
-    "char1260_text": { "type": "Enum['a~z']" }
-    "char1261_text": { "type": "Enum['a\~z']" }
-    "char1262_text": { "type": "Enum['a\\~z']" }
-    "char1263_text": { "type": "Enum['a\\\~z']" }
+    "char096_1_text": { "type": "Enum['a\`z']" }
+    "char096_2_text": { "type": "Enum['a\\`z']" }
+    "char096_3_text": { "type": "Enum['a\\\`z']" }
+    "char123_0_text": { "type": "Enum['a{z']" }
+    "char123_1_text": { "type": "Enum['a\{z']" }
+    "char123_2_text": { "type": "Enum['a\\{z']" }
+    "char123_3_text": { "type": "Enum['a\\\{z']" }
+    "char124_0_text": { "type": "Enum['a|z']" }
+    "char124_1_text": { "type": "Enum['a\|z']" }
+    "char124_2_text": { "type": "Enum['a\\|z']" }
+    "char124_3_text": { "type": "Enum['a\\\|z']" }
+    "char125_0_text": { "type": "Enum['a}z']" }
+    "char125_1_text": { "type": "Enum['a\}z']" }
+    "char125_2_text": { "type": "Enum['a\\}z']" }
+    "char125_3_text": { "type": "Enum['a\\\}z']" }
+    "char126_0_text": { "type": "Enum['a~z']" }
+    "char126_1_text": { "type": "Enum['a\~z']" }
+    "char126_2_text": { "type": "Enum['a\\~z']" }
+    "char126_3_text": { "type": "Enum['a\\\~z']" }
   }
 }
