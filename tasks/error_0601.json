@@ -1,0 +1,12 @@
+{
+  "description": "Test enum with char(060), 1 backslash for ticket ENTERPRISE-1303",
+  "implementations": [
+    {
+      "name": "tests.sh"
+    }
+  ],
+  "input_method": "environment",
+  "parameters": {
+    "char060": { "type": "Enum['a\<z']" }
+  }
+}

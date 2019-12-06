@@ -1,0 +1,19 @@
+{
+  "author": "Robert August Vincent II",
+  "dependencies": [],
+  "license": "unknown",
+  "name": "pillarsdotnet-enterprise1303",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS"
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 6.0.0"
+    }
+  ],
+  "source": "git@github.com:pillarsdotnet/enterprise1303",
+  "version": "1.0.0"
+}
